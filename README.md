@@ -65,3 +65,48 @@ Esta aplicación es una demostración básica y no implementa medidas avanzadas 
 
 Siéntete libre de contribuir a este proyecto o sugerir mejoras. Para cualquier consulta o problema, por favor abre un issue en este repositorio.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+INVESTIGACION
+
+Formularios para la elaboracion de un CRUD
+Un CRUD (Crear, Leer, Actualizar y Eliminar) es una funcionalidad básica en muchas aplicaciones de software que permite la gestión de datos. Aquí te muestro un ejemplo básico de cómo podrían ser los formularios para cada una de las operaciones CRUD:
+
+1. Crear (Create)
+Formulario de Creación 
+<form action="crear.php" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required>
+    <button type="submit">Crear</button>
+</form>
+
+2. Leer (Read)
+Formulario de Búsqueda: 
+<form action="buscar.php" method="GET">
+    <label for="buscar">Buscar:</label>
+    <input type="text" id="buscar" name="buscar">
+    <button type="submit">Buscar</button>
+</form>
+
+3. Actualizar (Update)
+Formulario de Edición: 
+<form action="actualizar.php" method="POST">
+    <input type="hidden" id="id" name="id" value="ID_DEL_REGISTRO_A_ACTUALIZAR">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required>
+    <button type="submit">Actualizar</button>
+</form>
+
+4. Eliminar (Delete)
+Formulario de Eliminación: 
+<form action="eliminar.php" method="POST">
+    <input type="hidden" id="id" name="id" value="ID_DEL_REGISTRO_A_ELIMINAR">
+    <p>¿Estás seguro de que quieres eliminar este registro?</p>
+    <button type="submit">Eliminar</button>
+</form>
+
+Recuerda que estos son solo ejemplos básicos y que la implementación real puede variar dependiendo del lenguaje de programación y del sistema de gestión de base de datos que estés utilizando. Además, asegúrate siempre de validar y sanear los datos recibidos del usuario para prevenir ataques de seguridad como inyección de SQL.
+
