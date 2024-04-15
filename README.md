@@ -65,3 +65,25 @@ Esta aplicación es una demostración básica y no implementa medidas avanzadas 
 
 Siéntete libre de contribuir a este proyecto o sugerir mejoras. Para cualquier consulta o problema, por favor abre un issue en este repositorio.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+INVESTIGACION
+
+Formularios para la elaboración de un CRUD
+
+### 1. Crear (Create):
+
+El formulario de creación permite a los usuarios agregar nuevos registros a la base de datos. Contendrá campos para ingresar la información necesaria para crear un nuevo elemento. Los campos generalmente estarán etiquetados y pueden incluir validaciones para garantizar que los datos ingresados sean correctos antes de enviarlos al servidor.
+
+### 2. Leer (Read):
+
+El formulario de lectura no es propiamente un formulario de entrada de datos, sino más bien una interfaz para mostrar los datos almacenados en la base de datos. Puede incluir opciones de búsqueda y filtrado para que los usuarios puedan encontrar rápidamente la información que están buscando. Esto podría ser una lista de elementos con la opción de ver detalles completos al hacer clic en un elemento específico.
+
+### 3. Actualizar (Update):
+
+El formulario de actualización permite a los usuarios modificar los datos de un registro existente en la base de datos. Al igual que el formulario de creación, contendrá campos etiquetados prellenados con la información actual del registro seleccionado. Los usuarios podrán realizar cambios en estos campos y luego enviar el formulario para actualizar los datos en la base de datos.
+
+### 4. Eliminar (Delete):
+
+El formulario de eliminación es un formulario simple que solicita confirmación antes de eliminar un registro de la base de datos. Por lo general, solo incluirá un mensaje de confirmación y un botón para confirmar la eliminación. Esto es importante para evitar eliminaciones accidentales de datos.
+
+En resumen, un CRUD completo requerirá un conjunto de formularios que permitan a los usuarios realizar todas las operaciones básicas de creación, lectura, actualización y eliminación de datos en la base de datos. Cada formulario estará diseñado específicamente para su función, con campos y opciones relevantes para la operación que realiza.
